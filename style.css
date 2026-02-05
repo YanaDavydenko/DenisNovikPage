@@ -43,16 +43,16 @@ html, body{
 .nav-menu_link:hover {
   font-weight: 700;
 }
-img{
+.main img{
     height: 390px;
 }
 .aboutMe{
     text-align: center;
-
+ background-color: #F6F6F6;
 
 }
 .aboutMe .container{
- background-color: #F6F6F6;
+
   padding: 100px 0;
 }
 
@@ -64,4 +64,50 @@ margin: 0 auto;
 .my_info:not(:last-child){
     margin-bottom: 30px;
 
+}
+.skills{
+    text-align: center;
+}
+.skills h3{
+    font-weight: 400;
+}
+.programms{
+    display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 97px;
+    list-style: none;
+padding-left: 0;
+margin-top: 50px;
+}
+.programms_names{
+     text-align: center; 
+     width:170px;
+  display: flex;               
+  flex-direction: column;      
+  align-items: center;         
+  height: 230px;              
+}
+
+.programms_names img {
+  width: 80px;                 
+  height: 80px;                
+  margin-bottom: 25px;        
+}
+.programms_names figcaption{
+    color: #828282;
+}
+.programms_names figure{
+      min-height: 140px;           
+
+}
+.chart {
+  margin-top: auto;            
+  display: flex;              
+  gap: 6px;                    
+}
+.chart img{
+    justify-content: center;
+    width:26px;
+    height: 26px;
 }
